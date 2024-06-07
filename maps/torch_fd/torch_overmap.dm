@@ -12,6 +12,13 @@
 	dir = SOUTH
 	skill_needed = SKILL_BASIC
 	vessel_size = SHIP_SIZE_TINY
+	known_ships = list(
+		/obj/overmap/visitable/ship/torch,
+		/obj/overmap/visitable/ship/landable/aquila,
+		/obj/overmap/visitable/ship/landable/guppy,
+		/obj/overmap/visitable/ship/landable/exploration_shuttle,
+		/obj/overmap/visitable/ship/landable/butterfly
+	)
 
 /obj/machinery/computer/shuttle_control/explore/bubble
 	name = "Bubble control console"
@@ -80,6 +87,13 @@
 	dir = SOUTH
 	skill_needed = SKILL_BASIC
 	vessel_size = SHIP_SIZE_TINY
+	known_ships = list(
+		/obj/overmap/visitable/ship/torch,
+		/obj/overmap/visitable/ship/landable/aquila,
+		/obj/overmap/visitable/ship/landable/exploration_shuttle,
+		/obj/overmap/visitable/ship/landable/guppy,
+		/obj/overmap/visitable/ship/landable/bubble,
+	)
 
 /obj/machinery/computer/shuttle_control/explore/butterfly
 	name = "Butterfly control console"
