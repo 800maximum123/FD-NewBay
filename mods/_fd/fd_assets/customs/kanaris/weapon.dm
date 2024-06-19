@@ -22,9 +22,9 @@
 	scope_zoom = 1.5
 	scoped_accuracy = 3
 	bulk = GUN_BULK_RIFLE
-	projectile_type = /obj/item/projectile/bullet/lasbolt/lasgun
+	projectile_type = /obj/item/projectile/lasbolt/lasgun
 	wielded_item_state = "rifle-scope-w"
 	firemodes = list(
-			list(mode_name = "semiauto", burst=1, fire_delay=2, move_delay=2, accuracy=0, charge_cost=200, projectile_type = /obj/item/projectile/bullet/lasbolt),
-			list(mode_name = "overcharge", burst=1, fire_delay=4, move_delay=6, accuracy=0, charge_cost=800, projectile_type = /obj/item/projectile/bullet/lasbolt/overcharge)
+			list(mode_name = "semiauto", burst=1, fire_delay=2, move_delay=2, accuracy=0, charge_cost=200, projectile_type = /obj/item/projectile/lasbolt),
+			list(mode_name = "overcharge", burst=1, fire_delay=4, move_delay=6, accuracy=0, charge_cost=800, projectile_type = /obj/item/projectile/lasbolt/overcharge)
 		)
