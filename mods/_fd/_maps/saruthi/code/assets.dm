@@ -61,27 +61,6 @@
 /obj/smoke_wall/no_time/ammonia
 	color = "#07d4009d"
 
-// TO-DO
-// client - dir
-// Добавить телепортерам поиск Дира.
-
-/client/New()
-	..()
-	dir = NORTH
-
-/client/verb/spinleft()
-	set name = "Spin View CCW"
-	set category = "OOC"
-	dir = turn(dir, 90)
-
-/client/verb/spinright()
-	set name = "Spin View CW"
-	set category = "OOC"
-	dir = turn(dir, -90)
-
-/client/GetBackThatScreen
-	view = "15x15"
-
 // Gate
 
 /obj/machinery/door/blast/bordergate

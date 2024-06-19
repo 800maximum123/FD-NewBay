@@ -231,16 +231,16 @@
 	if(!istype(E))
 		return
 	var/nx = x
-	if (x <= 51)
-		nx = 51 + 1
-	else if (x >= (148))
-		nx = 148 - 1
+	if (x <= TRANSITIONEDGE)
+		nx = x + (E.maxx - 2*TRANSITIONEDGE) - 1
+	else if (x >= (E.maxx - TRANSITIONEDGE))
+		nx = x - (E.maxx  - 2*TRANSITIONEDGE) + 1
 
 	var/ny = y
-	if (y <= 51)
-		ny = 51 + 1
-	else if (y >= (148))
-		ny = 148 - 1
+	if(y <= TRANSITIONEDGE)
+		ny = y + (E.maxy - 2*TRANSITIONEDGE) - 1
+	else if (y >= (E.maxy - TRANSITIONEDGE))
+		ny = y - (E.maxy - 2*TRANSITIONEDGE) + 1
 
 	var/turf/NT = locate(nx, ny, z)
 	if(NT)
