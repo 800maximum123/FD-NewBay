@@ -1,18 +1,18 @@
 /obj/item/book/necrotek
 	name = "Necrotek"
 	desc = "Bro. What you want from me?"
-	icon = 'mods/_fd/_maps/saruti/planets/items/books.dmi'
+	icon = 'mods/_fd/_maps/saruthi/icons/planets/items/books.dmi'
 	icon_state = "ledge0"
 
 /turf/asphalt/lava
-	icon = 'mods/_fd/_maps/saruti/planets/turfs/asphalt.dmi'
+	icon = 'mods/_fd/_maps/saruthi/icons/planets/turfs/asphalt.dmi'
 	icon_state = "lava_asphalt"
 
-/turf/simulated/floor/beach/sand/saruti
-	icon = 'mods/_fd/_maps/saruti/planets/turfs/plating.dmi'
+/turf/simulated/floor/beach/sand/saruthi
+	icon = 'mods/_fd/_maps/saruthi/icons/planets/turfs/plating.dmi'
 	icon_state = "asteroidplating"
 
-/obj/saruti/ark
+/obj/saruthi/ark
 	name = "alien wall"
 	desc = "You feel a sense of dread from just looking at this wall. Its surface seems to be constantly moving, as if it were breathing."
 	icon = 'maps/away/blueriver/riverturfs.dmi'
@@ -23,7 +23,7 @@
 
 	temperature = 233
 
-/obj/saruti/ark/Initialize()
+/obj/saruthi/ark/Initialize()
 	. = ..()
 
 	if(prob(80))
@@ -31,7 +31,7 @@
 
 
 
-/obj/saruti/ark/bluespace/Initialize()
+/obj/saruthi/ark/bluespace/Initialize()
 	. = ..()
 
 	if(prob(80))
@@ -64,7 +64,7 @@
 // Gate
 
 /obj/machinery/door/blast/bordergate
-	icon = 'mods/_fd/_maps/saruti/gates1.dmi'
+	icon = 'mods/_fd/_maps/saruthi/icons/gates1.dmi'
 	icon_state_open = "door0"
 	icon_state_opening = "doorc0"
 	icon_state_closed = "door1"
@@ -81,7 +81,7 @@
 	opacity = 0
 
 /obj/machinery/door/blast/bordergate/central
-	icon = 'mods/_fd/_maps/saruti/gates2.dmi'
+	icon = 'mods/_fd/_maps/saruthi/icons/gates2.dmi'
 
 /obj/machinery/door/blast/bordergate/right
-	icon = 'mods/_fd/_maps/saruti/gates3.dmi'
+	icon = 'mods/_fd/_maps/saruthi/icons/gates3.dmi'

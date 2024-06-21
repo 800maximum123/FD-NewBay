@@ -298,8 +298,8 @@
 	#include "../random_ruins/exoplanet_ruins/shelters/shelters_alt.dm"
 	#include "../random_ruins/exoplanet_ruins/warehouse/warehouse.dm"
 
-	#include "../../mods/_fd/_maps/saruti/assets.dm"
-
+	#include "../../mods/_fd/polaris_portals/_polaris_portals.dme"
+	#include "../../mods/_fd/_maps/saruthi/_saruthi.dme"
 
 	#define using_map_DATUM /datum/map/torch
 

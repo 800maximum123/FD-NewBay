@@ -17,6 +17,8 @@ var/global/list/obj/step_trigger/mobius_rift/seamless_portal/SEAMLESS_TELEPORTER
 
 /obj/step_trigger/client_clearer
 	affect_ghosts = 1
+	icon = 'mods/_fd/polaris_portals/icons/map_effects.dmi'
+	icon_state = "portal_projection_side_a"
 
 /obj/step_trigger/client_clearer/Trigger(mob/human)
 	. = ..()
@@ -26,6 +28,8 @@ var/global/list/obj/step_trigger/mobius_rift/seamless_portal/SEAMLESS_TELEPORTER
 	human.client.view = "15x15"
 
 /obj/step_trigger/client_rotator
+	icon = 'mods/_fd/polaris_portals/icons/map_effects.dmi'
+	icon_state = "client_rotator"
 	affect_ghosts = 1
 	dir = SOUTH
 	var/view = "15x15"

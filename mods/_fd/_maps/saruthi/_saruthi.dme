@@ -1,0 +1,11 @@
+#ifndef MODPACK_SARUTHI
+#define MODPACK_SARUTHI
+
+#include "_saruthi.dm"
+
+#include "code/assets.dm"
+#include "code/teleporter.dm"
+
+#include "code/helper.dm"
+
+#endif

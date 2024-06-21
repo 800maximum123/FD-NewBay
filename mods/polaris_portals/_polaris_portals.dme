@@ -1,0 +1,9 @@
+#ifndef MODPACK_POLARIS_PORTALS
+#define MODPACK_POLARIS_PORTALS
+
+#include "_polaris_portals.dm"
+
+// Далее просто включай свой код
+// #include "code/something.dm"
+
+#endif

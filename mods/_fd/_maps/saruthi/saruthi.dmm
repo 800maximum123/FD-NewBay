@@ -1,30 +1,29 @@
 "a" = (/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "b" = (/turf/simulated/ocean/non_flooded,/area/space)
-"c" = (/obj/step_trigger/stopper,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
-"d" = (/obj/saruti/ark,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
+"d" = (/obj/saruthi/ark,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "e" = (/turf/simulated/ocean/abyss,/area/space)
-"f" = (/obj/smoke_wall/no_time/ammonia,/obj/saruti/ark,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
-"g" = (/obj/saruti/ark/bluespace,/obj/saruti/ark/bluespace,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
+"f" = (/obj/smoke_wall/no_time/ammonia,/obj/saruthi/ark,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
+"g" = (/obj/saruthi/ark/bluespace,/obj/saruthi/ark/bluespace,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "i" = (/obj/step_trigger/mobius_rift/seamless_portal,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "j" = (/obj/machinery/door/window{dir = 8},/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "k" = (/obj/step_trigger/mobius_rift/seamless_portal,/obj/step_trigger/mobius_rift/seamless_portal,/obj/step_trigger/mobius_rift/seamless_portal,/obj/step_trigger/mobius_rift/seamless_portal,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "m" = (/obj/machinery/door/blast/bordergate/right,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "n" = (/turf/unsimulated/wall/away/blueriver/livingwall{desc = "You feel a sense of dread from just looking at this wall. Its surface seems to be constantly moving, as if it were breathing."},/area/space)
-"o" = (/obj/saruti/ark/bluespace,/obj/step_trigger/mobius_rift/seamless_portal,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
-"r" = (/turf/simulated/floor/beach/sand/saruti,/area/space)
+"o" = (/obj/saruthi/ark/bluespace,/obj/step_trigger/mobius_rift/seamless_portal,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
+"r" = (/turf/simulated/floor/beach/sand/saruthi,/area/space)
 "s" = (/obj/smoke_wall/no_time/ammonia{density = 1; opacity = 1},/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "t" = (/obj/machinery/door/blast/bordergate/central,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "u" = (/obj/step_trigger/mobius_rift/seamless_portal,/obj/step_trigger/mobius_rift/seamless_portal,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "v" = (/obj/smoke_wall/no_time/ammonia{density = 1; opacity = 1},/obj/smoke_wall/no_time/ammonia{density = 1; opacity = 1},/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "y" = (/obj/smoke_wall/no_time/ammonia,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "A" = (/obj/structure/fd/bluespace_drive,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
-"C" = (/obj/saruti/ark/bluespace,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
+"C" = (/obj/saruthi/ark/bluespace,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "D" = (/obj/structure/table/woodentable/walnut,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "E" = (/obj/structure/table/mag,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "F" = (/turf/unsimulated/wall,/area/space)
-"H" = (/obj/saruti/ark,/obj/smoke_wall/no_time/ammonia,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
+"H" = (/obj/saruthi/ark,/obj/smoke_wall/no_time/ammonia,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "J" = (/obj/structure/bed/chair/office/blue{dir = 1},/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
-"L" = (/obj/smoke_wall/no_time/ammonia{density = 1; opacity = 1},/obj/saruti/ark,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
+"L" = (/obj/smoke_wall/no_time/ammonia{density = 1; opacity = 1},/obj/saruthi/ark,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "M" = (/obj/step_trigger/mobius_rift/seamless_portal,/obj/step_trigger/mobius_rift/seamless_portal,/obj/step_trigger/mobius_rift/seamless_portal,/obj/step_trigger/mobius_rift/seamless_portal,/obj/step_trigger/mobius_rift/seamless_portal,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "R" = (/obj/machinery/door/blast/bordergate,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
 "S" = (/obj/structure/table/woodentable/walnut,/turf/simulated/floor/exoplanet/chlorine_sand,/area/space)
@@ -185,13 +184,13 @@ Faaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 FaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
 FaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
 FaaaaaaaaaaaaaaaaaaaaaaaaaannnnnnnnnnnnnnnnnnnnnRtttmnnonnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
-FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaanSaaaaEEnaaaaanaaanaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
-FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaanSaaaaaanaaaaanaaanaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
-FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaanSaaaDSSnaaaaanaaannnnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
-FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaanSaaaDJanaaaaanaaaaaaaiaaacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
-FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaanSaaajaanRtttmnaaaaaaaiaaacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
-FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaannnnnnnnnnnnnnnaaaaaaaiaaacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
-FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaannnnnnTnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
+FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaanSaaaaEEnaaaaanaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
+FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaanSaaaaaanaaaaanaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
+FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaanSaaaDSSnaaaaanaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
+FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaanSaaaDJanaaaaanaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
+FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaanSaaajaanRtttmnaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
+FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaannnnnnnnnnnnnnnaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
+FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaannnnnnTnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
 FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
 FaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
 FaaaaaaaaaaaaaaaaaaaaaaaaaannnnnnnnnnnnnnnnnnnnnnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaF
