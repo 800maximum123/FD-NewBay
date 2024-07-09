@@ -57,4 +57,6 @@
 
 #include "eventstuff/admintools.dm"
 
+#include "code\trauma\code.dm"
+
 #endif

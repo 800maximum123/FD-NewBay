@@ -98,6 +98,7 @@
 	minimal_player_age = 0
 	alt_titles = list(
 		"Paramedic",
+		"Trauma Stabilizer",
 		"Corpsman")
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/medical/doctor
 	allowed_branches = list(
