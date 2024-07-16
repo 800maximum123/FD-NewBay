@@ -235,7 +235,7 @@
 	#include "../../mods/legalese_language/_legalese.dme"
 	#include "../../mods/petting_zoo/_petting_zoo.dme"
 	#include "../../mods/screentips/_screentips.dme"
-	#include "../../mods/tajara/_tajara.dme"
+//	#include "../../mods/tajara/_tajara.dme"
 	#include "../../mods/sauna_props/_sauna_props.dme"
 	#include "../../mods/wyccbay_optimization/_wyccbay_optimization.dme"
 
@@ -260,6 +260,7 @@
 	#include "../../mods/_fd/complementary_xeno_ablities/_complementary_xeno_ablities.dme"
 	#include "../../mods/_fd/conference_holopads/_conference_holopads.dme"
 	#include "../../mods/_fd/cyberware_mayhem/_cyberware_mayhem.dme"
+	#include "../../mods/_fd/dnd_ss13/_dnd_ss13.dme"
 	#include "../../mods/_fd/expanded_traders/_expanded_traders.dme"
 	#include "../../mods/_fd/fd_species/_fd_species.dme"
 	#include "../../mods/_fd/hestia_missiles/_hestia_missiles.dme"

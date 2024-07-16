@@ -1,0 +1,8 @@
+#ifndef MODPACK_DND_SS13
+#define MODPACK_DND_SS13
+
+#include "_dnd_ss13.dm"
+
+#include "code/dice_roll.dm"
+
+#endif
