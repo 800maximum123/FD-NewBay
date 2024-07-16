@@ -23,6 +23,7 @@
 #include "code/obj/items/firstaid_indiv.dm"
 #include "code/obj/items/grown_food.dm"
 #include "code/obj/items/items.dm"
+#include "code/obj/items/music_tape.dm"
 #include "code/obj/items/storage_backpacks.dm"
 #include "code/obj/items/tile_types.dm"
 
