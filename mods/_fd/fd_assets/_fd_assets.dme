@@ -13,6 +13,7 @@
 #include "code/machinery/autoaccess_machinery.dm"
 #include "code/machinery/big_engine.dm"
 #include "code/machinery/light_types.dm"
+#include "code/machinery/supply_console.dm"
 #include "code/machinery/telescreen_consoles.dm"
 #include "code/machinery/turret.dm"
 

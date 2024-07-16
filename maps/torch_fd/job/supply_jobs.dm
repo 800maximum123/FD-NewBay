@@ -37,7 +37,7 @@
 		access_radio_sup, access_radio_exp, access_radio_comm
 	)
 
-	software_on_spawn = list(/datum/computer_file/program/supply,
+	software_on_spawn = list(// /datum/computer_file/program/supply,
 							 /datum/computer_file/program/deck_management,
 							 /datum/computer_file/program/reports)
 
@@ -76,7 +76,7 @@
 		access_guppy, access_hangar, access_commissary, access_radio_sup
 	)
 
-	software_on_spawn = list(/datum/computer_file/program/supply,
+	software_on_spawn = list( // /datum/computer_file/program/supply,
 							 /datum/computer_file/program/deck_management,
 							 /datum/computer_file/program/reports)
 
