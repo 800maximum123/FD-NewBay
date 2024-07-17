@@ -176,3 +176,16 @@
 /obj/item/clothing/accessory/solgov/department/Initialize()
 	. = ..()
 	LAZYSET(sprite_sheets, SPECIES_RESOMI, 'mods/resomi_fd/icons/clothing/solgov/onmob_accessories_resomi.dmi')
+
+//
+#define SETUP_SPECIES_ONMOB "sprite_sheets"
+
+/singleton/item_modifier/space_suit/Initialize()
+	. = ..()
+	var/helmet_setup = type_setups[/obj/item/clothing/head/helmet/space]
+	helmet_setup[SETUP_SPECIES_ONMOB] += list(SPECIES_RESOMI = 'mods/resomi_fd/icons/clothing/onmob_suit_resomi.dmi')
+
+	var/suit_setup = type_setups[/obj/item/clothing/suit/space/void]
+	suit_setup[SPECIES_RESOMI] += list(SPECIES_RESOMI = 'mods/resomi_fd/icons/clothing/onmob_suit_resomi.dmi')
+
+#undef SETUP_SPECIES_ONMOB
