@@ -12,7 +12,7 @@
 */
 
 /obj/item/clothing/accessory/necklace/collar/New()
-	sprite_sheets += list(SPECIES_RESOMI = 'mods/resomi_fd/icons/clothing/misc.dmi')
+	sprite_sheets += list(SPECIES_RESOMI = 'mods/_fd/resomi_fd/icons/clothing/misc.dmi')
 	. = ..()
 
 /obj/item/clothing/accessory/scarf/resomi

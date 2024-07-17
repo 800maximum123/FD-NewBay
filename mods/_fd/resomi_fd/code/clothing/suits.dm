@@ -594,7 +594,7 @@
 	hoodtype = /obj/item/clothing/head/resomi/resomi_hood
 	//allowed = list (/obj/item/weapon/pen, /obj/item/weapon/paper, /obj/item/device/flashlight,/obj/item/weapon/tank/emergency/oxygen, /obj/item/weapon/storage/fancy/cigarettes, /obj/item/weapon/storage/box/matches, /obj/item/weapon/reagent_containers/food/drinks/flask)
 	species_restricted = list(SPECIES_RESOMI)
-	sprite_sheets = list(SPECIES_RESOMI = 'mods/resomi_fd/icons/clothing/onmob_suit_resomi.dmi')
+	sprite_sheets = list(SPECIES_RESOMI = 'mods/_fd/resomi_fd/icons/clothing/onmob_suit_resomi.dmi')
 
 /obj/item/clothing/suit/storage/hooded/resomi/New()
 	..()
@@ -775,7 +775,7 @@
 	flags_inv = BLOCKHAIR | HIDEEARS
 	body_parts_covered = HEAD
 	species_restricted = list(SPECIES_RESOMI)
-	sprite_sheets = list(SPECIES_RESOMI = 'mods/resomi_fd/icons/clothing/onmob_head_resomi.dmi')
+	sprite_sheets = list(SPECIES_RESOMI = 'mods/_fd/resomi_fd/icons/clothing/onmob_head_resomi.dmi')
 
 /obj/item/clothing/head/resomi/resomi_hood/polychromic_hood
 	name = "polychromic hood"

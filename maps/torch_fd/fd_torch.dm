@@ -245,8 +245,6 @@
 
 		// ~NON-UPSTREAM MODS~ //
 
-	#include "../../mods/resomi_fd/_resomi.dme"
-
 	#include "../../mods/_fd/runechat/_runechat.dme"
 	#include "../../mods/_fd/fd_assets/_fd_assets.dme"
 	#include "../../mods/_fd/fd_guns/_fd_guns.dme"
@@ -256,6 +254,7 @@
 	#include "../../mods/_fd/ascent/_ascent.dme"
 	#include "../../mods/_fd/backgrounds/_fd_backgrounds.dme"
 	#include "../../mods/_fd/bruno_items/_bruno_items.dme"
+	#include "../../mods/_fd/chem_furniture/_furniture.dme"
 	#include "../../mods/_fd/combat_stances/_combat_stances.dme"
 	#include "../../mods/_fd/complementary_xeno_ablities/_complementary_xeno_ablities.dme"
 	#include "../../mods/_fd/conference_holopads/_conference_holopads.dme"
@@ -271,9 +270,9 @@
 	#include "../../mods/_fd/multitile_vehicles/_multitile_vehicles.dme"
 	#include "../../mods/_fd/polaris_portals/_polaris_portals.dme"
 	#include "../../mods/_fd/old_space_cannons/_old_space_cannons.dme"
-	#include "../../mods/_fd/random_rooms/_random_rooms.dme"
 	#include "../../mods/_fd/structure_storage/_structure_storage.dme"
-	#include "../../mods/_fd/chem_furniture/_furniture.dme"
+	#include "../../mods/_fd/random_rooms/_random_rooms.dme"
+	#include "../../mods/_fd/resomi_fd/_resomi.dme"
 
 	#include "../../mods/_fd/_maps/airfield/_airfield.dme"
 	#include "../../mods/_fd/_maps/ares/_ares.dme"

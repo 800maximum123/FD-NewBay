@@ -1,5 +1,5 @@
 /obj/item/holder/human
-	icon = 'mods/resomi_fd/icons/holder_complex.dmi'
+	icon = 'mods/_fd/resomi_fd/icons/holder_complex.dmi'
 	var/list/generate_for_slots = list(slot_l_hand_str, slot_r_hand_str, slot_back_str)
 	w_class = ITEM_SIZE_LARGE
 	slot_flags = SLOT_BACK
