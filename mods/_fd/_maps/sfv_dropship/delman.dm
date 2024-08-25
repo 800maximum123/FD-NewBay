@@ -5,15 +5,8 @@
 	name = "PM-23 \"Delman\" Dropship"
 	id = "awaysite_delman"
 	description = "Army dropship that can bring to planet up to Platoon(42) and 4 Vehicle."
-	mappaths = list("mods/_fd/_maps/sfv_dropship/delman.dm")
-	area_usage_test_exempted_areas = list(
-		/area/ship/delman,
-		/area/ship/delman/central,
-		/area/ship/delman/rightwing,
-		/area/ship/delman/leftwing,
-		/area/ship/delman/cockpit,
-		/area/ship/delman/engibay
-	)
+	mappaths = list("mods/_fd/_maps/sfv_dropship/delman.dmm")
+	area_usage_test_exempted_areas = list(/area/ship/delman)
 	spawn_cost = 1000
 	player_cost = 4
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/delman)

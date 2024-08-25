@@ -1,5 +1,6 @@
 /obj/overmap/projectile
 	name = "projectile"
+	icon = 'mods/_fd/fd_assets/icons/overmap.dmi'
 	icon_state = "projectile_danger"
 	scannable = FALSE
 

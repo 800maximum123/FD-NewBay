@@ -1,6 +1,7 @@
+
 /datum/controller/subsystem/jobs/check_general_join_blockers(mob/new_player/joining, datum/job/job)
-	..()
-	if(check_rights(R_ADMIN) || joining.client.enter_lock_bypass)
+	. = ..()
+	if(check_rights(, show_msg = FALSE) || joining.client.enter_lock_bypass)
 		return TRUE
 
 /client
@@ -15,13 +16,13 @@
 		var/client/player = input("Select mob.", "Allow Bypass Entering Lock") as null|anything in GLOB.clients
 		if(!player.enter_lock_bypass)
 			player.enter_lock_bypass = 1
-			to_chat(player, SPAN_MFAUNA("Высшие силы даровали возможность тебе зайти!"))
+			to_chat(player, FONT_LARGE(SPAN_NOTICE("Высшие силы даровали возможность тебе зайти!")))
 			if(player.get_preference_value(/datum/client_preference/staff/play_adminhelp_ping) == GLOB.PREF_HEAR)
 				sound_to(player, sound('sound/ui/pm-notify.ogg', volume = 70))
 			log_and_message_admins("Игроку [player.ckey] дали возможность зайти в игру.")
 		else
 			player.enter_lock_bypass = 0
-			to_chat(player, FONT_LARGE(SPAN_MFAUNA("Высшие силы изъяли у тебя возможность зайти!")))
+			to_chat(player, FONT_LARGE(SPAN_NOTICE("Высшие силы изъяли у тебя возможность зайти!")))
 			log_and_message_admins("У игрока [player.ckey] забрали возможность зайти в игру.")
 
 /client/proc/remove_slot_crew_full() // fully close job slot

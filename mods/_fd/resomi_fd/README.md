@@ -3,6 +3,7 @@
 
 - https://github.com/SierraBay/SierraBay12/pull/2054
 - https://github.com/RepoStash/FD-NewBay/pull/30
+- https://github.com/RepoStash/FD-NewBay/pull/44
 <!--
   Ссылки на PRы, связанные с модом:
   - Создание

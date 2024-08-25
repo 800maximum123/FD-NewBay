@@ -2646,7 +2646,6 @@
 #include "code\modules\overmap\overmap_shuttle.dm"
 #include "code\modules\overmap\sectors.dm"
 #include "code\modules\overmap\spacetravel.dm"
-#include "code\modules\overmap\trading_locations.dm"
 #include "code\modules\overmap\contacts\_contacts.dm"
 #include "code\modules\overmap\contacts\contact_sensors.dm"
 #include "code\modules\overmap\contacts\tracker.dm"

@@ -414,15 +414,15 @@
 	..()
 	icon_state = "purplebush_[rand(1, 2)]"
 
-/obj/structure/flora/ausbushes/cyan_shroom
-	name = "cyan-glowing shroom"
+/obj/structure/flora/ausbushes/orange_shroom
+	name = "orange-glowing shroom"
 	icon = 'mods/_fd/_maps/dead_sea/icons/dead_sea.dmi'
 	icon_state = "grib"
 	light_power = 1
 	light_range = 3
-	light_color = COLOR_BABY_BLUE
+	light_color = COLOR_ORANGE
 
-/obj/structure/flora/ausbushes/cyan_shroom/New()
+/obj/structure/flora/ausbushes/orange_shroom/New()
 	..()
 	icon_state = "grib_[rand(0, 1)]"
 

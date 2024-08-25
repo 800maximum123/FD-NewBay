@@ -235,11 +235,10 @@
 		to_chat(usr, SPAN_WARNING("The round is either not ready, or has already finished..."))
 		return 0
 //	[FD-EDIT]
-	if(!check_rights(R_ADMIN))
-		if(!usr.client.enter_lock_bypass)
-			if(!config.enter_allowed)
-				to_chat(usr, SPAN_NOTICE("There is an administrative lock on entering the game!"))
-				return 0
+	if(!config.enter_allowed)
+		if(!check_rights(, show_msg = FALSE) && !usr.client.enter_lock_bypass)
+			to_chat(usr, SPAN_NOTICE("There is an administrative lock on entering the game!"))
+			return 0
 /*
 	if(!config.enter_allowed)
 		to_chat(usr, SPAN_NOTICE("There is an administrative lock on entering the game!"))
