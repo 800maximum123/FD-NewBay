@@ -4,6 +4,7 @@
 #include "_immersive_sounds.dm"
 
 #include "code/machinery.dm"
+#include "code/preference.dm"
 
 #include "code/vent_pump.dm"
 #include "code/vent_scrubber.dm"
