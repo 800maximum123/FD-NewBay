@@ -51,6 +51,7 @@
 #include "code/fullscreen.dm"
 #include "code/loadout.dm"
 #include "code/skills.dm"
+#include "code/tent.dm"
 #include "code/~TO_MAKE.dm"
 
 #endif
