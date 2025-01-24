@@ -3,7 +3,7 @@
 
 // Дефайны, которых нету на билде
 #define CALIBER_BOLTER				".75"
-#include "_defines"
+#include "_defines.dm"
 
 #include "code/projectiles.dm"
 #include "code/energy_battery.dm"
