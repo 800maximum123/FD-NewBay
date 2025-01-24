@@ -17,7 +17,8 @@ ID мода: EVENT_TOOLS
 
 ### Оверрайды
 
-- Отсутствуют
+- `code/admintools.dm`:
+  - `/datum/controller/subsystem/jobs/proc/check_general_join_blockers(mob/new_player/joining, datum/job/job)` 
 
 ### Дефайны
 
@@ -29,4 +30,4 @@ ID мода: EVENT_TOOLS
 
 ### Авторы:
 
-Doctor Alex
+Doctor Alex, Chaplain Maximum
