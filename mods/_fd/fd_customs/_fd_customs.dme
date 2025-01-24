@@ -1,0 +1,38 @@
+#ifndef MODPACK_FD_CUSTOMS
+#define MODPACK_FD_CUSTOMS
+
+#include "_fd_customs.dm"
+
+// !! СОДЕРЖАТЬ В АЛФАВИТНОМ ПОРЯДКЕ !!
+
+#include "cards.dm"
+
+#include "colonel/mantle.dm"
+
+#include "doctoralex/memes.dm"
+
+#include "evil/evil_box.dm"
+
+#include "gero/shothammer.dm"
+
+#include "kanaris/item.dm"
+#include "kanaris/weapon.dm"
+
+#include "lobster/null-clock.dm"
+
+#include "lozari/custom_exosuit.dm"
+
+#include "nest/psi_items.dm"
+
+#include "tech/tech_box.dm"
+#include "tech/tech_fox.dm"
+
+#include "vipo/dice.dm"
+
+#include "zakterar/leather_folder.dm"
+#include "zakterar/oversizejacket.dm"
+
+// !! СОДЕРЖАТЬ В АЛФАВИТНОМ ПОРЯДКЕ !!
+
+
+#endif
