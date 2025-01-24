@@ -4,6 +4,7 @@
 #include "_fd_lore.dm"
 
 #include "factions/institute/name.dm"
+#include "psistuff.dm"
 // Далее просто включай свой код
 // #include "code/something.dm"
 
