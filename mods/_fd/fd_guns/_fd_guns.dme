@@ -20,9 +20,9 @@
 #include "code/guns/sniper.dm"
 #include "code/guns/k342.dm"
 
-#include "code/vanyaguns/automatic_shotgun.dm"
+#include "code/vanyaguns/automatic_shotgun.dm" // wrong sprite
 #include "code/vanyaguns/mech_mounted.dm"
-#include "code/vanyaguns/rsh21.dm"
+#include "code/vanyaguns/rsh21.dm" // sprite bug
 #include "code/vanyaguns/sledgehammer.dm"
 
 #undef CALIBER_BOLTER

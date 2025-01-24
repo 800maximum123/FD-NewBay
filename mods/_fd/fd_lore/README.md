@@ -49,7 +49,7 @@ ID мода: FD_LORE
 - `/obj/item/storage/briefcase/foundation`: `var/name`
 - `/obj/item/book/manual/psionics`: `var/dat`
 
-- `psistuff.dm`
+- `psistuff.dm`:
   - `/obj/item/nullrod/apply_hit_effect(mob/living/target, mob/living/user, hit_zone)`
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
