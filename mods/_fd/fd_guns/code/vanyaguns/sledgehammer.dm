@@ -1,8 +1,8 @@
 /obj/item/material/twohanded/sledgehammer	// Someone thinks that crossbows and summer go well together.
-	icon = 'mods/_fd/fd_assets/icons/obj/melee_physical.dmi'
+	icon = 'melee_physical.dmi'
 	item_icons = list(
-		slot_l_hand_str = 'mods/_fd/fd_assets/icons/onmob/lefthand.dmi',
-		slot_r_hand_str = 'mods/_fd/fd_assets/icons/onmob/righthand.dmi',
+		slot_l_hand_str = 'lefthand.dmi',
+		slot_r_hand_str = 'righthand.dmi',
 		)
 	icon_state = "breacher0"
 	base_icon = "breacher"

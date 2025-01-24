@@ -46,11 +46,6 @@
 #include "code/turfs/wall_paint.dm"
 #include "code/turfs/wall_types.dm"
 
-#include "code/weapons/automatic_shotgun.dm"
-#include "code/weapons/mech_mounted.dm"
-#include "code/weapons/rsh21.dm"
-#include "code/weapons/sledgehammer.dm"
-
 #include "code/accessory.dm"
 #include "code/fd_sofa_override.dm"
 #include "code/floor_decals.dm"
@@ -62,7 +57,7 @@
 #include "code/psistuff.dm"
 #include "code/skills.dm"
 #include "code/ssinput_vent_fix.dm"
-#include "code/~TO_MAKE.dm"
+// #include "code/~TO_MAKE.dm"
 
 #include "code\trauma\code.dm"
 #include "code/awards/awards2024.dm"
