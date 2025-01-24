@@ -3,8 +3,6 @@
 
 #include "_fd_assets.dm"
 
-#include "code/_defines.dm"
-
 #include "code/clothing/badges.dm"
 #include "code/clothing/battlewizards.dm"
 #include "code/clothing/clothing_under.dm"
@@ -50,7 +48,6 @@
 #include "code/fd_sofa_override.dm"
 #include "code/floor_decals.dm"
 #include "code/fullscreen.dm"
-#include "code/loadout.dm"
 #include "code/added_branch_outfits.dm"
 // #include "code/added_branches.dm"
 #include "code/dionae.dm"
